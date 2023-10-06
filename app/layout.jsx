@@ -12,8 +12,10 @@ export const metadata = {
 const RootLayout = ({ children }) => {
   return (
     <html lang="en">
-      <meta property="og:image" content={metadata.content}></meta>
-      <link rel="icon" href={metadata.icon} />
+      <head>
+        <meta property="og:image" content={metadata.content} />
+        <link rel="icon" href={metadata.icon} />
+      </head>
       <body>
         <Provider>
           <div className="main">

@@ -7,7 +7,7 @@ export const metadata = {
   description:
     "Discover & Share AI Prompts for Creative Writing and Inspiration.",
   icon: "/assets/images/logo.svg",
-  content: "/assets/images/home.png",
+  content: "/assets/images/home.svg",
 };
 
 const RootLayout = ({ children }) => {

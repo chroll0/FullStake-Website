@@ -4,7 +4,8 @@ import Provider from "@components/Provider";
 
 export const metadata = {
   title: "Promtopia",
-  description: "Discover & Share AI Prompts",
+  description:
+    "Discover & Share AI Prompts for Creative Writing and Inspiration.",
   icon: "/assets/images/logo.svg",
   content: "/assets/images/home.png",
 };

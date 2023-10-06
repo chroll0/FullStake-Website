@@ -6,11 +6,13 @@ export const metadata = {
   title: "Promtopia",
   description: "Discover & Share AI Prompts",
   icon: "/assets/images/logo.svg",
+  content: "/assets/images/home.png",
 };
 
 const RootLayout = ({ children }) => {
   return (
     <html lang="en">
+      <meta property="og:image" content={metadata.content}></meta>
       <link rel="icon" href={metadata.icon} />
       <body>
         <Provider>
